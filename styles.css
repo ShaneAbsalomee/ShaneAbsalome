@@ -1,0 +1,108 @@
+.navbar{
+    text-align: center;
+}
+.navbar-brand,h1,h5{
+ font-family: 'Righteous', cursive;;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+
+}
+/* top  */
+#top{
+
+    background-color: rgb(26, 26, 26);
+    padding: 10% 5%;
+    color: aliceblue;
+    text-align: center;
+    background-image:url(images/—Pngtree—blue\ black\ abstract\ technology\ circuit_1311168.png) ;
+}
+.carousel {
+    padding: 5%;
+}
+.carosalcol{
+    padding: 0 10% 0 10%;
+}
+.slideimg{
+padding: 2%;
+    width: 100%;
+    border-radius: 7%;
+}
+.introcard{
+    text-align: center;
+    padding: 5%;
+    border-radius: 5%;
+    
+
+}
+.dp{
+width: 50%;
+    border-radius: 10%;
+    text-align: center;
+}
+.introcard{
+    margin-top: 1%;
+}
+.introtext{
+    text-align: left;
+}
+/* skils  */
+#skills{
+    padding: 5%;
+    text-align: center;
+}
+.skill{
+    border-radius: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    margin: 1%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.skillimg{
+ border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+/* work  */
+#works{
+    background-color:rgb(26, 26, 26);
+    background-image: url(images/—Pngtree—blue\ black\ abstract\ technology\ circuit_1311168.png);
+    
+    padding: 5%;
+    text-align: center;
+}
+.work{
+    color: aliceblue;
+}
+/* contact  */
+#contact{
+    text-align: center;
+    padding: 3% 7%;
+}
+.social{
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 100%;
+    color: black;
+
+
+}
+.weblink{
+    text-decoration: solid;
+    color: black;
+}
+#footer{
+    background-color:rgb(20, 20, 20) ;
+    color: aliceblue;
+    text-align: center;
+    padding: 3% 7%;
+    
+}
+.heslink{
+    text-decoration: solid;
+    color: rgb(255, 136, 0);
+}
