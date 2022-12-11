@@ -16,7 +16,7 @@ h1{
     color: aliceblue;
 }
 .greeting{
-    padding: 18%;
+    padding: 15%;
     font-family: 'Lobster', cursive;
 
 }
@@ -93,7 +93,7 @@ h1{
     padding: 4%;
 }
 .skill{
-    padding: 15%;
+    padding: 10%;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: transform .2s; /* Animation */
