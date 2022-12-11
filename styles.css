@@ -1,108 +1,174 @@
 .navbar{
+    background-image: linear-gradient(to right,rgb(11, 25, 37),rgb(19, 41, 66));
+}
+.navbar-brand,.card-title{
+    font-family: 'Lobster', cursive;
+
+}
+h1{
+    font-family: 'Righteous', cursive;
+
+}
+#home{
+    padding: 5%;
     text-align: center;
+    background-image: linear-gradient(to bottom,rgb(12, 34, 63),rgb(49, 123, 196),white);
+    color: aliceblue;
 }
-.navbar-brand,h1,h5{
- font-family: 'Righteous', cursive;;
+.greeting{
+    padding: 18%;
+    font-family: 'Lobster', cursive;
+
 }
-p{
+.fa-laptop{
+    margin: 2%;
+}
+.contactme{
     font-family: 'Roboto', sans-serif;
 
-}
-h2{
-    font-family: 'Fredoka One', cursive;
-
-}
-/* top  */
-#top{
-
-    background-color: rgb(26, 26, 26);
-    padding: 10% 5%;
+    margin: 5%;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
     color: aliceblue;
+    background-image: linear-gradient(to bottom,rgb(0, 94, 172),rgb(14, 179, 230));
+    border: none;
+    transition: transform .2s;
+}
+.contactme:hover{
+    transform: scale(1.1);
+
+}
+.contactme:active{
+    opacity: 0.7;
+    color: rgb(245, 251, 255);
+}
+.col-md-6{
+    padding: 2%;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.introimg{
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50% ;
+    transition: transform .2s;
+}
+.introimg:hover{
+    transform: scale(1.1);
+}
+.introcard{
     text-align: center;
-    background-image:url(images/—Pngtree—blue\ black\ abstract\ technology\ circuit_1311168.png) ;
-}
-.carousel {
-    padding: 5%;
-}
-.carosalcol{
-    padding: 0 10% 0 10%;
+    background-image: linear-gradient(to bottom,rgb(17, 24, 37),rgb(14, 37, 63));
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 .slideimg{
-padding: 2%;
     width: 100%;
-    border-radius: 7%;
+    border-radius: 10px;
 }
-.introcard{
-    text-align: center;
-    padding: 5%;
-    border-radius: 5%;
-    
+.card-subtitle{
+    color: rgb(165, 214, 236);
+}
+.edu{
+    color: black;
+    margin: 2%;
+}
+.h3{
+    font-family: 'Fjalla One', sans-serif;
 
 }
-.dp{
-width: 50%;
-    border-radius: 10%;
+#Skills{
     text-align: center;
+    padding: 2%;
+    background-image: linear-gradient(to bottom, white 25%,rgb(5, 62, 136),rgb(49, 123, 196));
 }
-.introcard{
-    margin-top: 1%;
-}
-.introtext{
-    text-align: left;
-}
-/* skils  */
-#skills{
-    padding: 5%;
-    text-align: center;
+.col-md-3{
+    padding: 4%;
 }
 .skill{
-    border-radius: 5%;
-    margin-bottom: 5%;
-    padding: 5%;
-    margin: 1%;
-    text-align: center;
+    padding: 15%;
+    border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform .2s; /* Animation */
+
+}
+.skill:hover{
+    transform: scale(1.1);
 }
 .skillimg{
- border-radius: 5%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 100%;
+
 }
-/* work  */
-#works{
-    background-color:rgb(26, 26, 26);
-    background-image: url(images/—Pngtree—blue\ black\ abstract\ technology\ circuit_1311168.png);
-    
-    padding: 5%;
+#Works{
+    background-image: linear-gradient(to top, white ,rgb(49, 123, 196));
+    padding: 2%;
     text-align: center;
+    color: aliceblue; 
 }
-.work{
-    color: aliceblue;
+.hh,.git2{
+    color: rgb(2, 2, 2);
+    font-weight: bold;
 }
-/* contact  */
+
 #contact{
+    background-image: linear-gradient(to bottom,white,rgb(49, 123, 196));
     text-align: center;
-    padding: 3% 7%;
+    padding: 5%;
 }
-.social{
+.working{
+    padding: 5%;
+}
+.project{
+    border-radius: 10rem;
+}
+.git{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    border: none;
     margin: 2%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 100%;
-    color: black;
-
-
+    transition: transform .2s;
 }
-.weblink{
-    text-decoration: solid;
-    color: black;
+.git:hover{
+    transform: scale(1.1);
 }
+.contacticon{
+    margin: 5%;
+    color: rgb(0, 68, 255);
+    transition: transform .2s;
+}
+.contacticon:hover{
+    transform:scale(1.2);
+}
+
 #footer{
-    background-color:rgb(20, 20, 20) ;
-    color: aliceblue;
     text-align: center;
-    padding: 3% 7%;
-    
+    padding: 3%;
+    background-image: linear-gradient(to bottom,rgb(11, 26, 39),rgb(2, 51, 114));
+    color: aliceblue;
 }
 .heslink{
     text-decoration: solid;
-    color: rgb(255, 136, 0);
+    color: rgba(255, 68, 0, 0.616);
+}
+.pageup{
+    border-radius: 100%;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform .2s;
+    border: none;
+    color: rgb(0, 110, 255);
+
+    
+}
+.pageup:hover{
+    transform: scale(1.1);
 }
